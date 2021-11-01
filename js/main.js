@@ -43,7 +43,7 @@ function updateOutputs(){
 
 function updateOutputsWithCommands(){
     setTimeout(() => {
-        out.value=outputs+"\nuser@desktop:"+now_dir+"# "+now_command;
+        out.value=outputs+"\nuser@ubuntu:"+now_dir+"# "+now_command;
         out.scrollBy(0,9999999999999999999999999);
     }, 1);
 }
